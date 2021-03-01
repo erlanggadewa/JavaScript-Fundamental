@@ -30,5 +30,5 @@
 // const section2 = document.getElementById("b");
 // const li3 = section2.querySelector("ul li:nth-child(3)");
 // ! code diatas dapat ditulis seperti ini
-const li3 = document.querySelector("#b").querySelector("ul li:nth-child(3)");
-li3.innerHTML = "diubah oleh li3";
+// const li3 = document.querySelector("#b").querySelector("ul li:nth-child(3)");
+// li3.innerHTML = "diubah oleh li3";
