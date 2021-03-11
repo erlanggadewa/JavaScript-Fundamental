@@ -1,6 +1,6 @@
 # JavaScript-Fundamental
 
-This repository just for practice to learn about Web Development and this code is open source for everyone.
+This repository just for practice to learn about Web Development.
 
 
 ```bash
