@@ -25,37 +25,37 @@
 // * parentNode.replaceChild()
 
 // * node.appendChild()
-const pBaruAkhir = document.createElement("p");
-const pBaruText1 = document.createTextNode(
-    "INI PARAGRAF BARU DENGAN appendChild()"
-);
-pBaruAkhir.appendChild(pBaruText1);
-document.getElementById("a").appendChild(pBaruAkhir);
+// const pBaruAkhir = document.createElement("p");
+// const pBaruText1 = document.createTextNode(
+//     "INI PARAGRAF BARU DENGAN appendChild()"
+// );
+// pBaruAkhir.appendChild(pBaruText1);
+// document.getElementById("a").appendChild(pBaruAkhir);
 
 // * node.insertBefore()
-const pBaruTengah = document.createElement("p");
-const pBaruText2 = document.createTextNode(
-    "INI PARAGRAF BARU DENGAN insertBefore()"
-);
-pBaruTengah.appendChild(pBaruText2);
-const p2 = document.querySelector("#container #a .p2");
-document.querySelector("#container #a").insertBefore(pBaruTengah, p2);
+// const pBaruTengah = document.createElement("p");
+// const pBaruText2 = document.createTextNode(
+//     "INI PARAGRAF BARU DENGAN insertBefore()"
+// );
+// pBaruTengah.appendChild(pBaruText2);
+// const p2 = document.querySelector("#container #a .p2");
+// document.querySelector("#container #a").insertBefore(pBaruTengah, p2);
 
 // * parentNode.removeChild()
-const parentRemove = document.getElementById("b");
-const p4 = document.querySelector("#b p");
-parentRemove.removeChild(p4); // ! paragraf p4 hilang
+// const parentRemove = document.getElementById("b");
+// const p4 = document.querySelector("#b p");
+// parentRemove.removeChild(p4); // ! paragraf p4 hilang
 
 // * parentNode.replaceChild()
-const li2Replace = document.createElement("li");
-const li2Kalimat = document.createTextNode("INI item 2 yang direplace");
-li2Replace.appendChild(li2Kalimat);
+// const li2Replace = document.createElement("li");
+// const li2Kalimat = document.createTextNode("INI item 2 yang direplace");
+// li2Replace.appendChild(li2Kalimat);
 
-const li2 = document.querySelector("#b ul li:nth-child(2)");
+// const li2 = document.querySelector("#b ul li:nth-child(2)");
 
-const parentReplace = document.querySelector("#b ul");
+// const parentReplace = document.querySelector("#b ul");
 
-parentReplace.replaceChild(li2Replace, li2);
+// parentReplace.replaceChild(li2Replace, li2);
 
 // ? MANIPULASI KHUSUS CLASS
 
