@@ -143,3 +143,18 @@
 // });
 // console.log(arrFind);
 // * End of find
+
+//  * reduce -> untuk mereduce array menjadi sebuah single array, dan tidak mengubah array target
+// var arr = [40, 20, 30, 90, 60, 50, 70, 10, 80];
+// var arrReduce = arr.reduce((total, sum) => (total += sum), 9); // ! ditambah dengan 9, default nilai jika kosong = 0
+// console.log(arrReduce);
+// * End of reduce
+
+//  * method chaining -> metode berantai
+//  ! cari angka >= 50 , kemudian bagi dengan 10, dan jumlahkan
+// var arr = [40, 20, 30, 90, 60, 50, 70, 10, 80];
+// var arrBaru = arr
+//   .filter((x) => x >= 50)
+//   .map((x) => x / 10)
+//   .reduce((total, sum) => (total += sum));
+// console.log(arrBaru);
