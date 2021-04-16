@@ -42,4 +42,23 @@
 //   </div>`;
 //  * End of Ternary
 
+//  * Nested
+// const mhs = {
+//   nama: "Erlangga Dewa Sakti",
+//   semester: 2,
+//   mataKuliah: ["WebPro", "AKPPL", "ISD", "SBD", "PT"],
+// };
+
+// function cetakMatkul(mataKuliah) {
+//   return mataKuliah.map((matkul) => `<li>${matkul}</li>`).join("");
+// }
+
+// const el = `<div class="mhs">
+//     <h2>${mhs.nama}</h2>
+//     <span>Semester : ${mhs.semester}</span>
+//     <ol>
+//         ${cetakMatkul(mhs.mataKuliah)}
+//     </ol>
+// </div>`;
+
 document.body.innerHTML = el;
