@@ -13,6 +13,9 @@
  *
  */
 
+const Tiger = require("./Tiger");
+const Wolf = require("./Wolf");
+
 // TODO 3
 
 const fight = (tiger, wolf) => {
@@ -27,7 +30,7 @@ const fight = (tiger, wolf) => {
 
 const myTiger = new Tiger();
 const myWolf = new Wolf();
-
 const result = fight(myTiger, myWolf);
-
 // TODO 4
+module.exports = { result, fight, myTiger, myWolf };
+console.log(module.exports);
