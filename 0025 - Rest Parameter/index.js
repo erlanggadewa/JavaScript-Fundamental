@@ -25,3 +25,4 @@
 //   return data.filter((x) => typeof x === type);
 // }
 // console.log(filterBy("number", 1, 2, 3, "roti", true));
+// console.log(filterBy("boolean", 1, 2, 3, "roti", true));
