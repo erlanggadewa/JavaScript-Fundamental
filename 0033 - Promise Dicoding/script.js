@@ -3,7 +3,7 @@ const state = {
     coffeeBeans: 250,
     water: 1000,
   },
-  isCoffeeMachineBusy: false,
+  isCoffeeMachineBusy: true,
 };
 
 const checkAvailability = () => {
