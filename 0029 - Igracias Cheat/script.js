@@ -12,3 +12,9 @@ for (let value of x) {
   if (value.nextSibling.innerHTML == "Sangat puas") 
     value.querySelector("input").setAttribute("checked", "");
 }
+
+// udemy all checklist
+let x = document.querySelectorAll("input.ud-sr-only.ud-real-toggle-input")
+for(let val of x){
+    val.click()
+}
