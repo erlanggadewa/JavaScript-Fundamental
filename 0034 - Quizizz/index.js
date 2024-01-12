@@ -38,169 +38,150 @@
  */
 /** @type {Answer} */
 const answer = {
-  success: true,
-  message: "Answers retrieved",
-  answers: [
+  "success": true,
+  "message": "Answers retrieved",
+  "answers": [
     {
-      id: "65090d859c48e0a4d6cb86a1",
-      question:
-        "Elemen apa yang tepat untuk menghubungkan resource luar ke dokumen HTML?",
-      options: [
+      "id": "651243af6db81716f3a46d48",
+      "question": "Apa CSS selector yang tepat untuk menunjuk elemen yang memiliki class “container”?",
+      "options": [
         {
-          media: null,
-          text: "A. &lt;link&gt;",
+          "media": null,
+          "text": "A. #container"
         },
         {
-          media: null,
-          text: "B. &lt;style&gt;",
+          "media": null,
+          "text": "B. container"
         },
         {
-          media: null,
-          text: "C. &lt;script&gt;",
+          "media": null,
+          "text": "C. .container"
         },
         {
-          media: null,
-          text: "D. &lt;meta&gt;",
-        },
+          "media": null,
+          "text": ":container"
+        }
       ],
-      answer: [0],
-      media: null,
-      type: "MCQ",
-      ignoreAnswers: false,
+      "answer": [2],
+      "media": null,
+      "type": "MCQ",
+      "ignoreAnswers": false
     },
     {
-      id: "65090ddf008714598a6740e6",
-      question:
-        "Dalam menghubungkan CSS ke HTML, ada satu atribut yang penting untuk mendeskripsikan berkas yang akan dihubungkan. Manakah jawaban yang tepat?",
-      options: [
+      "id": "6512440984acd070d501bde9",
+      "question": "Manakah properti yang berguna untuk menetapkan jenis font yang akan diterapkan pada target?",
+      "options": [
         {
-          media: null,
-          text: "A. href=styles.css",
+          "media": null,
+          "text": "A. Font-family"
         },
         {
-          media: null,
-          text: "B. referrerpolicy=origin",
+          "media": null,
+          "text": "B. Font-size"
         },
         {
-          media: null,
-          text: "C. rel=stylesheet",
+          "media": null,
+          "text": "C. Font-weight"
         },
         {
-          media: null,
-          text: "D. type=stylesheet",
-        },
+          "media": null,
+          "text": "D. Font-style"
+        }
       ],
-      answer: [2],
-      media: null,
-      type: "MCQ",
-      ignoreAnswers: false,
+      "answer": [0],
+      "media": null,
+      "type": "MCQ",
+      "ignoreAnswers": false
     },
     {
-      id: "65090e571fb05f68dcffd1a4",
-      question:
-        "Ada empat konsep yang diadopsi pada CSS. Salah satunya adalah suatu elemen akan menerapkan CSS properti terakhir yang diterapkan padanya jika ada dua CSS rule dengan selector identik. Konsep manakah yang sesuai dengan pernyataan tersebut?",
-      options: [
+      "id": "6512447aa077c1ffd0d290f6",
+      "question": "Selain menetapkan border pada elemen, kita juga bisa membuat rounded corner. Properti apa yang tepat untuk melakukannya?",
+      "options": [
         {
-          media: null,
-          text: "A. Inheritance rule",
+          "media": null,
+          "text": "A. rounded"
         },
         {
-          media: null,
-          text: "B. Rule order",
+          "media": null,
+          "text": "B. border-radius"
         },
         {
-          media: null,
-          text: "C. Specificity rule",
+          "media": null,
+          "text": "C. corner"
         },
         {
-          media: null,
-          text: "D. Group selector",
-        },
+          "media": null,
+          "text": "D. border-rounded"
+        }
       ],
-      answer: [1],
-      media: null,
-      type: "MCQ",
-      ignoreAnswers: false,
+      "answer": [1],
+      "media": null,
+      "type": "MCQ",
+      "ignoreAnswers": false
     },
     {
-      id: "65090f611fb05f3805ffd225",
-      question: "Manakah pernyataan yang benar terkait kode di atas?",
-      options: [
+      "id": "651244ce84acd09ffe01be4e",
+      "question": "Secara default, setiap element memiliki nilai position. Apa itu?",
+      "options": [
         {
-          media: null,
-          text: "A. Kode CSS tidak berwarna sehingga tidak valid.",
+          "media": null,
+          "text": "A. Static"
         },
         {
-          media: null,
-          text: "B. Penulisan kode masih keliru karena seharusnya penulisan deklarasi style tidak ditulis tepat setelah kurung kurawal buka ({).",
+          "media": null,
+          "text": "B. Relative"
         },
         {
-          media: null,
-          text: "C. Kode di atas sudah valid dan tidak ada kendala apa pun.",
+          "media": null,
+          "text": "C. Absolute"
         },
         {
-          media: null,
-          text: "D. Tidak valid karena tidak ada titik koma sebagai pemisah deklarasi style.",
-        },
+          "media": null,
+          "text": "D. Fixed"
+        }
       ],
-      answer: [3],
-      media: [
-        {
-          type: "image",
-          url: "https://media.quizizz.com/_mdserver/main/media/resource/gs/quizizz-media/quizzes/8fa7d29f-0dd6-4881-935e-51b31d367952-v2",
-        },
-      ],
-      type: "MCQ",
-      ignoreAnswers: false,
+      "answer": [0],
+      "media": null,
+      "type": "MCQ",
+      "ignoreAnswers": false
     },
     {
-      id: "6509105e0087140dcb6742e1",
-      question: "Manakah kode CSS yang tidak valid?",
-      options: [
+      "id": "6512451bce7ad92db081b172",
+      "question": "Manakah kode warna yang tidak valid?",
+      "options": [
         {
-          media: {
-            type: "image",
-            url: "https://media.quizizz.com/_mdserver/main/media/resource/gs/quizizz-media/quizzes/e5f6d048-15c7-495f-9608-db2d6b605286-v2",
-          },
-          text: "",
+          "media": null,
+          "text": "A. #3f3f3f"
         },
         {
-          media: {
-            type: "image",
-            url: "https://media.quizizz.com/_mdserver/main/media/resource/gs/quizizz-media/quizzes/51fa8033-0973-4daa-8a11-de50b0a19cef-v2",
-          },
-          text: "",
+          "media": null,
+          "text": "B. #333"
         },
         {
-          media: {
-            type: "image",
-            url: "https://media.quizizz.com/_mdserver/main/media/resource/gs/quizizz-media/quizzes/ed46ec84-3300-43b5-8c3c-4be3de1e9e3f-v2",
-          },
-          text: "",
+          "media": null,
+          "text": "C. rgb(255, 255, 255)"
         },
         {
-          media: {
-            type: "image",
-            url: "https://media.quizizz.com/_mdserver/main/media/resource/gs/quizizz-media/quizzes/bbe64a5b-7c15-417f-bbdf-ab2a9672ca86-v2",
-          },
-          text: "",
-        },
+          "media": null,
+          "text": "hsl(120deg, 75% 25%)"
+        }
       ],
-      answer: [2],
-      media: null,
-      type: "MCQ",
-      ignoreAnswers: false,
-    },
+      "answer": [3],
+      "media": null,
+      "type": "MCQ",
+      "ignoreAnswers": false
+    }
   ],
-  roomHash: "651227751a33a5970f6f9a75",
-  gameState: "running",
-  gameType: "live",
-  time: {
-    start: 1695692637666,
-    end: 1695692637930,
-    timeTaken: "0.264 seconds",
-  },
-};
+  "roomHash": "65129c9f158fe1fb6d0511b9",
+  "gameState": "running",
+  "gameType": "live",
+  "time": {
+    "start": 1695723063546,
+    "end": 1695723063563,
+    "timeTaken": "0.017 seconds"
+  }
+}
+
 
 function sanitize(text) {
   const span = document.createElement("span");
